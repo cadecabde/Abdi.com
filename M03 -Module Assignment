@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> Module 03</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="M03 -Module Assignment">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Abdinasir Mohamud">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> M03 -Module Assignment</title>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dancing" type="text/css"/>
  <Style> 
     body { 
