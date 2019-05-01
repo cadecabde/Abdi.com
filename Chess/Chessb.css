@@ -8,14 +8,28 @@
  background-color:lightyellow;
  text-align:center; 
  z-index:10;
+ font-family: 'JustLettersMedium'; 
+font-weight: normal; 
+font-style: normal; 
+font-size:36px;      
 }
-        body {
- background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+      img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
+     #container {
+ margin-top:20%;
+ margin-left:10%;
+ margin-right:10%;
+ margin-bottom:5%;
 }
     .row {
  position:relative;
  margin-left:10%;
  margin-right:10%;
+}
+        body {
+ background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
    .white{
 border: 1px solid black;
@@ -32,6 +46,9 @@ height: 60px;
 background-color:#787878;
 float:left;
 }
+    #clear{
+clear:both; 
+}
     .footer {
  border:solid 1px;
  padding: 10px;
@@ -40,15 +57,5 @@ float:left;
  text-align:center; 
  z-index:10;
 }
-      #container {
- margin-top:20%;
- margin-left:10%;
- margin-right:10%;
- margin-bottom:5%;
-}
-        img {
- margin-left: 5px;
- margin-top:10px;
- }
-        <div class="white"><img  src="/img/black-castle.png"></div>
+<div class="white"><img  src="/img/black-castle.png"></div>
 
