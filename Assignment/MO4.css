@@ -1,9 +1,13 @@
-<style type="text/css">
 * {
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
   text-align: center;}
+ #header{
+  font-family: 'WaltographRegular'; 
+   
+}
 body {
+  background-image: url("https://previews.123rf.com/images/monsitj/monsitj1709/monsitj170900059/94040748-programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg");
   width: 90%;
   margin: 0 auto;}
 #content {
@@ -15,20 +19,31 @@ body {
   float: left;
   margin: 1%;}
 .column3 {
-  margin-right: 0%;}
+  margin-right: 0%;
+}
 li {
+  background-color: transparent;
   display: inline;
   padding: 0.5em;}
 #nav, #footer {
   background-color: #efefef;
-  padding: 0.5em 0;}
-
+  padding: 0.5em 0;
+background-color: skyblue
+}
 #feature, .article {
   height: 10em;
   margin-bottom: 1em;
   background-color: #efefef;
-  background-color: #8CC63E;
-  background-image: url("...");
+}
+#feature {
+  background-color: coral;
+  background-image: url("https://ak8.picdn.net/shutterstock/videos/21428728/thumb/1.jpg");
   background-size:contain;
   background-position: right;
   background-repeat:no-repeat;}
+h1 {
+  text-align:center;
+  color:white;
+  font-family:'DancingScriptRegular';
+  font-size: 400%;
+}
