@@ -1,3 +1,4 @@
+<style type="text/css">
 * {
   font-family: Arial, Verdana, sans-serif;
   color: #665544;
@@ -13,30 +14,40 @@ body {
 #content {
   overflow: auto;}
 #nav, #feature, #footer {
+  text-align:center;
   margin: 1%;}
 .column1, .column2, .column3 {
+  text-align:center;
   width: 31.3%;
   float: left;
-  margin: 1%;}
+  margin: 1%;
+  background-color: dodgerblue;}
 .column3 {
-  margin-right: 0%;
+   margin-right: 1%;
+  background-color:  lightskyblue;
+ }
+.column2 {
+  background-color: deepskyblue;
+  margin-right:1%;
+  
 }
 li {
-  background-color: transparent;
+  text-align:center;
   display: inline;
   padding: 0.5em;}
 #nav, #footer {
+  text-align:center;
   background-color: #efefef;
   padding: 0.5em 0;
 background-color: skyblue
 }
-#feature, .article {
+#feature,#article {
   height: 10em;
   margin-bottom: 1em;
   background-color: #efefef;
 }
 #feature {
-  background-color: coral;
+  background-color: royalblue;
   background-image: url("https://ak8.picdn.net/shutterstock/videos/21428728/thumb/1.jpg");
   background-size:contain;
   background-position: right;
