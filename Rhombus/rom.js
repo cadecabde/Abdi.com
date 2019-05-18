@@ -80,6 +80,7 @@ else
 rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 
 }
+  
 rLine +="</p>";
 // console.log(rLine);
 
