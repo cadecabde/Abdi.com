@@ -3,7 +3,7 @@
 body {
 	background-color: #000;
 	font-family: 'Oswald', 'Futura', sans-serif;
-	margin: 0; 
+	margin: 0;
 	padding: 0;}
 
 #page {
@@ -12,7 +12,7 @@ body {
 	/* Responsive page rules at bottom of style sheet */
 
 h1 {
-	background-image: url(../images/kinglogo.png);
+	background-image: url(http://javascriptbook.com/code/c05/images/kinglogo.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	text-align: center;
@@ -96,48 +96,9 @@ li a {
     padding-right: 36px;}
 
 p {
-	color: #403c3b; 
+	color: #403c3b;
 	background-color: #fff;
 	border-radius: 5px;
 	text-align: center;
 	padding: 10px;
-	margin: 20px auto 20px auto;
-	min-width: 20%; 
-	max-width: 80%; }
-
-#scriptResults {
-	padding-bottom: 10px;}
-
-/* Small screen - acts like the app would */
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: #584f4d;
-    }
-    #page {
-        max-width: 480px;
-    }
-}
-@media only screen and (min-width: 501px) and (max-width: 767px) {
-    #page {
-        max-width: 480px;
-        margin: 20px auto 20px auto;
-    }
-}
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    #page {
-        max-width: 480px;
-        margin: 20px auto 20px auto;
-    }
-}
-/* Larger screens act like a demo for the app */
-@media only screen and (min-width: 960px) {
-    #page {
-        max-width: 480px;
-        margin: 20px auto 20px auto;
-   	}
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
-    h1{
-        background-image: url(../img/2xkinglogo.png);
-        background-size: 72px 72px;
-    }
+	margin: 20px auto 20px auto;}
