@@ -1,0 +1,11 @@
+body {
+  background-image:url("https://www.vactualpapers.com/wallpapers/a-game-of-chess-hd-wallpaper/download/1920x1200.jpg");
+  background-repeat: no-repeat;
+  background-size:Cover;
+  background-position:center;
+}
+
+footer {
+  background-color: lightblue;
+  color: inherit;
+}
