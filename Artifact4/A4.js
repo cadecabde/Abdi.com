@@ -27,7 +27,7 @@ function validateForm() {
     document.getElementById("firstname").value.length <= 20)
     validFirstname = true;
   else
-    errorMessages += "<p> The firstname is required and cannot be greater than 20 character";
+    errorMessages += "<p> The firstname must be less than or equal to 20 charaters";
 
   if (document.getElementById("lastname").value.length > 0 &&
     document.getElementById("lastname").value.length <= 50)
@@ -70,12 +70,6 @@ function validateForm() {
   if (myContact.city.value == null ||
     myContact.city.value === "")
     errorMessages += "<p> A City is required</p>";
-  else
-    validCity = true;
-  
-   if (myContact.city.value == null ||
-    myContact.city.value === "")
-    errorMessages += "<p> A State is required</p>";
   else
     validCity = true;
 
