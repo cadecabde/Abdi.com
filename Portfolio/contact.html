@@ -1,150 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Made with Thimble</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="Simple Template #1 from simpletemplates.org">
+    <meta name="keywords" content="simple #1, template, simpletemplates.org">
+    <link rel="stylesheet" media="screen" href="https://cadecabde.github.io/Portfolio/style.css"  type="text/css"/>
+    <title>Simple Template #1 - simpletemplates.org</title>
   </head>
   <body>
-    <!DOCTYPE html>
-    <html>
+    <div class="image">
+      <div class="transparentbox">
+        <div id="main">
+          <div id="header">
+            <div id="logo">
+              <div id="logo_text">
+                <!-- class="logo_colour", allows you to change the colour of the text -->
+                <h1><a href="index.html">Abdinasir<span class="logo_colour">Mohamud</span></a></h1>
+                <h2>Web-based Portfolio.</h2>
+              </div>
+            </div>
+            <div id="menubar">
+              <ul id="menu">
+                <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+                <li class="selected"><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Me</a></li>
+                <li ><a href="Coursework.html">Coursework</a></li>
+                <li><a href="ModuleAssignments.html">Module Assignments</a></li>
+                <li><a href="Artifacts.html">Artifacts</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="MyPage.html">MyPage</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="content_header"></div>
+          <div id="site_content">
+            <div id="sidebar_container">
+              <div class="sidebar">
+                <div class="sidebar_top"></div>
+                <div class="sidebar_item">
+                  <!-- insert your sidebar items here -->
+                  <h3>Github Link</h3>
+                  <br><a href="https://github.com/cadecabde/cadecabde.github.io">github.io</a>
+                </div>
+                <div class="sidebar_base"></div>
+              </div>
+              <div class="sidebar">
+                <div class="sidebar_top"></div>
+                <div class="sidebar_item">
+                  <h3>My Work</h3>
+                  <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp"> W3SCHoL</a></li>
+                    <li><a href="https://stackoverflow.com/"> stackoverflow</a></li>
 
-      <head>
-        <meta name="robots" content="noindex">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="">
-        <title>Artifact 4</title>
-      </head>
+                  </ul>
+                </div>
+                <div class="sidebar_base"></div>
+              </div>
 
-      <body>
-        <h1>CONTACT US </h1>
-        <div id="errorMessage"></div>
-        <!--Add Thank you page -->
-        <form name="myContact" action="thankyou.html" method="get" onsubmit="return validateForm();">
-          <fieldset>
-            <div class="container">
-              <legend>User Information</legend>
-              <label for="firstname"> Firstname (Max 20 characters) </label>
-              <br>
-              <input type="text" id="firstname">
-              <br>
-              <label for="lastname"> Lastname (Max 50 characters) </label>
-              <br>
-              <input type="text" id="lastname">
-              <br>
-              <label for="email"> Email</label>
-              <br>
-              <input type="text" id="email">
-              <br>
-              <label for="phone">Phone Number (Max 15 Characters) </label>
-              <br>
-              <input type="text" id="phone">
-              <br>
-              <label for="username"> Username (Max 12 Characters)</label>
-              <br>
-              <input type="text" maxlength="12" id="username">
-              <br>
-              <label for="password"> Password (Max 7 Characters)</label>
-              <br>
-
-
-
-              <label for="address"> Address</label>
-              <br>
-              <input type="text" name="address" id="address" size="50">
-              <br>
-              <label for="city"> City</label>
-              <br>
-              <input type="text" name="city" id="city">
-              <br>
-              <label for="countries">Choose State</label>
-              <select>
-                <option value="AL">Alabama</option>
-                <option value="AK">Alaska</option>
-                <option value="AZ">Arizona</option>
-                <option value="AR">Arkansas</option>
-                <option value="CA">California</option>
-                <option value="CO">Colorado</option>
-                <option value="CT">Connecticut</option>
-                <option value="DE">Delaware</option>
-                <option value="DC">District Of Columbia</option>
-                <option value="FL">Florida</option>
-                <option value="GA">Georgia</option>
-                <option value="HI">Hawaii</option>
-                <option value="ID">Idaho</option>
-                <option value="IL">Illinois</option>
-                <option value="IN">Indiana</option>
-                <option value="IA">Iowa</option>
-                <option value="KS">Kansas</option>
-                <option value="KY">Kentucky</option>
-                <option value="LA">Louisiana</option>
-                <option value="ME">Maine</option>
-                <option value="MD">Maryland</option>
-                <option value="MA">Massachusetts</option>
-                <option value="MI">Michigan</option>
-                <option value="MN">Minnesota</option>
-                <option value="MS">Mississippi</option>
-                <option value="MO">Missouri</option>
-                <option value="MT">Montana</option>
-                <option value="NE">Nebraska</option>
-                <option value="NV">Nevada</option>
-                <option value="NH">New Hampshire</option>
-                <option value="NJ">New Jersey</option>
-                <option value="NM">New Mexico</option>
-                <option value="NY">New York</option>
-                <option value="NC">North Carolina</option>
-                <option value="ND">North Dakota</option>
-                <option value="OH">Ohio</option>
-                <option value="OK">Oklahoma</option>
-                <option value="OR">Oregon</option>
-                <option value="PA">Pennsylvania</option>
-                <option value="RI">Rhode Island</option>
-                <option value="SC">South Carolina</option>
-                <option value="SD">South Dakota</option>
-                <option value="TN">Tennessee</option>
-                <option value="TX">Texas</option>
-                <option value="UT">Utah</option>
-                <option value="VT">Vermont</option>
-                <option value="VA">Virginia</option>
-                <option value="WA">Washington</option>
-                <option value="WV">West Virginia</option>
-                <option value="WI">Wisconsin</option>
-                <option value="WY">Wyoming</option>
-              </select>	
-
-              <br>
-              <label for="countries">Choose Country</label>
-              <br>
-              <select id="countries">
-                <option value="1">Albania</option>
-                <option value="2">Algeria</option>
-                <option value="3">American</option>
-                <option value="4">Andorra</option>
-              </select>
-              <br>
-              <label for="zipcode">Enter zipcode</label>
-              <br>
-              <input type="text" name="zip" id="zipcode">
-              </fieldset>
+            </div>
+            <div id="content">
+              <!-- insert the page content here -->
+              <h1>Get in touch</h1>
+              <p><form id="contact-form" action="/" method="post">
+              <h3>Get in touch</h3>
+              <h4>Fill in the form below, and we'll get back to you within 24 hours.</h4>
+              <div>
+                <label>
+                  <span>Name: (required)</span>
+                  <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Email: (required)</span>
+                  <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Telephone: (required)</span>
+                  <input placeholder="Please enter your number" type="tel" tabindex="3" required>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Website: (required)</span>
+                  <input placeholder="Begin with http://" type="url" tabindex="4" required>
+                </label>
+              </div>
+              <div>
+                <label>
+                  <span>Message: (required)</span>
+                  <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+                </label>
+              </div>
+              <div>
+                <button name="submit" type="submit" id="contact-submit">Send Email</button>
+              </div>
+              </form>
+           
 
 
-            <br>
-            <input id="submit" type="submit" value="Submit">
-            <input id="cancel" type="submit" value="Cancel">
-            <script type="text/javascript" src="script.js"></script>
-            </form>
 
-          <footer>
-            <br>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-              <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
-            </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
-              <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
-            </a>
-          </footer>
-          
-  </body>
+              <div class="clear"> </div>
+
+            </div>
+          </div>
+        </div>
+        <div id="content_footer"></div>
+        <div id="footer">
+          <p><a href="index.html">Home</a> | <a href="About.html">About Me</a> | <a href="Coursework.html">Course Work</a> | <a href="ModuleAssignments.html">Module Assignments</a> |<a href="Artifacts.html">Artifacts</a> | <a href="contact.html">Contact Us</a></p>
+          <p> <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Web-based Portfolio</a></p>
+        </div>
+   </body>
 </html>
