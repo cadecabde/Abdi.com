@@ -1,0 +1,25 @@
+#errorMessage {
+  color:red;
+}
+
+.Legend {
+  text-align: center;
+}
+.h1 {
+  text-align: center;
+}
+#submit {
+  text-align: center;
+}
+.nav{
+  margin-top:167px;
+  width:1024px;
+  height:34px;
+}
+
+.nav_button{
+  height:34px;
+  margin:0 auto;
+  
+  float:center;
+}
